@@ -1,0 +1,42 @@
+.title_row
+{
+  background-color: tan;
+}
+.title_column1
+{
+  float: left;
+  width: 10%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.title_column2
+{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.title_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

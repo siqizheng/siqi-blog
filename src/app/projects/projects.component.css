@@ -3,3 +3,48 @@ h2
   margin: 8px 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+div
+{
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.project_name
+{
+  font-family: fantasy;
+}
+
+.project_type
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project_language
+{
+  font-variant-caps: all-petite-caps;
+}
+
+a:link{
+  color:green;
+  background-color: transparent;
+  text-decoration:none;
+}
+
+a:visited{
+  color:pink;
+  background-color: transparent;
+  text-decoration:none;
+}
+
+a:hover{
+  color:red;
+  background-color: transparent;
+  text-decoration:underline;
+}
+
+a:active{
+  color:yellow;
+  background-color: transparent;
+  text-decoration:none;
+}

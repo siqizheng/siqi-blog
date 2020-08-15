@@ -1,9 +1,11 @@
-<h3>SOFTWARE ENGINEERING PROJECTS</h3>
+<h4 style = " margin-left: 25px">SOFTWARE ENGINEERING PROJECTS</h4>
 <ul>
   <li *ngFor = "let project of projects">
-    {{project.name}} <br>
-    {{project.link}}
-    
+    <div>
+    <span class = "project_name">{{project.name}} </span> <br>
+    <span class = "project_type">{{project.type}}</span> &nbsp;&nbsp; <a href = {{project.link}}> {{project.link}} </a><br>
+    <span class = "project_language">{{project.language}} </span><br>
+    </div>
   </li>
 </ul>
   
